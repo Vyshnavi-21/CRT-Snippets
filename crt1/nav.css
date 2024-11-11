@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    background-color: skyblue;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    top: 0%;
+}
+.navbar a{
+    display: block;
+    text-decoration: none;
+    padding: 6px 10px;
+    text-align: center;
+    color: magenta;
+    text-shadow: -10px;
+    margin: 9px;
+    font-size: 18px;
+    float: both;
+    font-family: 'Quicksand' , Courier, monospace ;
+    
+}
+
+a:hover{
+    background-color: black;
+}
+a:active{
+    background-color: white;
+}

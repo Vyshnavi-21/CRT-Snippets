@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+
+.load{
+    border: 5px solid gray;
+    height: 150px;
+    width: 150px;
+    border-top: 5px solid magenta;
+    border-radius:  50%;
+    animation: something 1s linear infinite;
+}
+img{
+    height: 30px;
+    width: 30px;
+}
+
+@keyframes something{
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 180deg;
+    }
+}

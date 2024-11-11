@@ -1,0 +1,51 @@
+body{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myclass{
+    margin: 0%;
+   /* margin: 50px;*/
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid magenta;
+    width: 20vw;
+    font-size: 105px;
+    height: 20vh;
+
+    transform: translate(300px,-50px);
+    transform: scale(1.2);
+    /*transform: rotate(90deg);*/
+    animation:rotate 3s linear infinite;
+    
+    
+   
+}
+@keyframes slide {
+    0%{
+        margin-left: 100%;
+    }
+    100%{
+        margin-left: 0%;
+    }
+}
+@keyframes scaling{
+    50%{
+        transform: scale(0.5);
+    }
+}
+
+@keyframes opacity{
+    50%{
+        opacity: 50%;
+    }
+}
+@keyframes rotate{
+    100%{
+        transform: rotate(180deg);
+    }
+}
+

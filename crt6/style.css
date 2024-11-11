@@ -1,0 +1,29 @@
+body{
+    background-image: url("sky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+
+}
+.searcharea{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+#search1{
+    border: 3px solid;
+    border-radius: 4px;
+}
+#applycolor{
+    color: black !important;
+}
+.card{
+    background-color: transparent !important;
+    color: white !important;
+    font-weight: bold;
+}
